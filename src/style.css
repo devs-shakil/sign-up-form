@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@600;700&display=swap');
+
+.container{
+  background-image: url('../images/bg-intro-desktop.png');
+  background-position: center;
+  background-size: cover;
+  width:1440px;
+  background-repeat: no-repeat;
+  background-color:rgba(255,123,108,0.8);
+  display: flex;
+  margin:0 auto;
+  height:750px;
+}
+
+.text-box{
+   
+    width:40%;
+    height:50%;
+    margin:auto;
+    margin-left:10%;
+    
+}
+.text-box h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color:#FDFFFF;
+    
+
+}
+.text-box p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding-right: 10px;
+    line-height: 25px;
+    color:#FDFFFF;
+}
+.form-box{
+    width:40%;
+    margin-right:8%;
+   height:85%;
+}
+.form-area{
+    height:80%;
+    padding-top:15px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 2px 11px 8px 0px rgba(180,117,115,0.81);
+    -webkit-box-shadow: 2px 11px 8px 0px rgba(180,117,115,0.81);
+    -moz-box-shadow: 2px 11px 8px 0px rgba(180,117,115,0.81);
+}
+.form-area input{
+    width:70%;
+    padding:16px;
+    margin-left:12%;
+    margin-top:20px;
+    border-radius: 5px;
+    border:1px solid #5D54A3;
+    height:19px;
+    
+}
+.form-area input::placeholder{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.form-area input[type=text]{
+    font-size: 16px;
+}
+
+.trial-btn{
+   width:76%;
+   padding:17px;
+    margin-left:12%;
+    margin-top:40px;
+    background-color:#37CC8A;
+    border:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color:white;
+    cursor:pointer;
+
+}
+.terms-conditon{
+    text-align: center;
+    font-size: 14px;
+}
+.free-btn{
+    width: 100%;
+    background-color: #5D54A3;
+    padding: 1px;
+    margin: 35px 0px 12px 0px;
+    text-align: center;
+    border-radius: 7px;
+}
+.free-btn h5{
+    color:white;
+    font-size: 17px;
+}
+/* Responsive design */
+
